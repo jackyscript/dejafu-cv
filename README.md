@@ -1,6 +1,6 @@
 # dejafu-cv
 
-This template should help get you started developing with Vue 3 in Vite.
+A CV website created with Vue and Vite.
 
 ## Recommended IDE Setup
 
