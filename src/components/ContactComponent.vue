@@ -4,19 +4,23 @@ import ContactItem from './items/ContactItem.vue'
 
 <template>
   <ul>
-    <ContactItem src="src/assets/icons/pin.svg" value="Berlin">
+    <img aria-hidden="true" class="logo" src="../assets/icons/pin.svg" />
+    <ContactItem value="Berlin">
       <template #heading>Address</template>
     </ContactItem>
 
-    <ContactItem src="src/assets/icons/phone.svg" value="Ask me per mail">
+    <img aria-hidden="true" class="logo" src="../assets/icons/phone.svg" />
+    <ContactItem value="Ask me per mail">
       <template #heading>Phone</template>
     </ContactItem>
 
-    <ContactItem src="src/assets/icons/mail.svg" value="dezhijacky.fu [ at ] gmail.com">
+    <img aria-hidden="true" class="logo" src="../assets/icons/mail.svg" />
+    <ContactItem value="dezhijacky.fu [ at ] gmail.com">
       <template #heading>E-Mail</template>
     </ContactItem>
 
-    <ContactItem src="src/assets/icons/github.svg">
+    <img aria-hidden="true" class="logo" src="../assets/icons/github.svg" />
+    <ContactItem>
       <template #heading>Github</template>
 
       <template #link>
