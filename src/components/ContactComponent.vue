@@ -5,36 +5,50 @@ import ContactItem from './items/ContactItem.vue'
 <template>
   <p>
     Hello, I am Dezhi Jacky Fu, I work as an application developer. I have a passion for human
-    focused development, I care for UX and DX. I am focused, dedicated, hard-working and willing to
-    learn in a changing and challenging environment. I am a trained engineer (M. Sc.) in the field
-    of geodesy, the science of mapping, and geospatial information.
+    focused development, I care for a11y, UX and DX. I am focused, dedicated, hard-working and
+    willing to learn in a changing and challenging environment. I am a trained engineer (M. Sc.) in
+    the field of geodesy, the science of mapping, and geospatial information.
   </p>
   <section>
     <article>
       <ul>
         <ContactItem value="Berlin">
           <template #icon>
-            <img aria-hidden="true" class="logo" src="../assets/icons/pin.svg"
+            <img
+              aria-hidden="true"
+              class="logo"
+              src="../assets/icons/pin.svg"
+              alt="An address pin icon"
           /></template>
           <template #heading>Address</template>
         </ContactItem>
 
         <ContactItem value="Please ask per mail">
           <template #icon>
-            <img aria-hidden="true" class="logo" src="../assets/icons/phone.svg" />
+            <img
+              aria-hidden="true"
+              class="logo"
+              src="../assets/icons/phone.svg"
+              alt="A phone icon"
+            />
           </template>
           <template #heading>Phone</template>
         </ContactItem>
 
         <ContactItem value="dezhijacky.fu [ at ] gmail.com">
           <template #icon>
-            <img aria-hidden="true" class="logo" src="../assets/icons/mail.svg" />
+            <img aria-hidden="true" class="logo" src="../assets/icons/mail.svg" alt="A mail icon" />
           </template>
           <template #heading>E-Mail</template>
         </ContactItem>
         <ContactItem>
           <template #icon>
-            <img aria-hidden="true" class="logo" src="../assets/icons/github.svg" />
+            <img
+              aria-hidden="true"
+              class="logo"
+              src="../assets/icons/github.svg"
+              alt="The icon of github"
+            />
           </template>
           <template #heading>Github</template>
 
