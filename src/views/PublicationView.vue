@@ -3,7 +3,7 @@ import PublicationComponent from '../components/PublicationComponent.vue'
 </script>
 
 <template>
-  <main class="container-fluid">
+  <main id="main" class="container-fluid">
     <PublicationComponent />
   </main>
 </template>

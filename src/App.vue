@@ -8,7 +8,7 @@ import HeaderComponent from './components/HeaderComponent.vue'
     <!--img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" /-->
 
     <HeaderComponent msg="Dezhi Jacky Fu" />
-
+    <a href="#main">Skip to main content</a>
     <nav class="nav">
       <RouterLink to="/">Contact</RouterLink>
       <RouterLink to="/skills">Skills</RouterLink>
@@ -19,6 +19,10 @@ import HeaderComponent from './components/HeaderComponent.vue'
   </header>
 
   <RouterView />
+
+  <footer>
+    <a href="#top">Go to top</a>
+  </footer>
 </template>
 
 <style scoped>

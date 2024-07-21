@@ -3,7 +3,7 @@ import ContactComponent from '../components/ContactComponent.vue'
 </script>
 
 <template>
-  <main class="container-fluid">
+  <main id="main" class="container-fluid">
     <ContactComponent />
   </main>
 </template>
