@@ -170,3 +170,9 @@ import ExperienceItem from './items/ExperienceItem.vue'
     </ul>
   </ExperienceItem>
 </template>
+
+<style scoped>
+ul li {
+  list-style: circle;
+}
+</style>

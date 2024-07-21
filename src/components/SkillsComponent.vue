@@ -3,6 +3,7 @@ import SkillsItem from './items/SkillsItem.vue'
 </script>
 
 <template>
+  <p>These are skills I acquired, used in my professional life or in personal projects.</p>
   <ul>
     <SkillsItem>
       <template #type> Programming languages </template>
@@ -57,6 +58,16 @@ import SkillsItem from './items/SkillsItem.vue'
       </template>
     </SkillsItem>
     <SkillsItem>
+      <template #type> GIS </template>
+      <template #skills>
+        <ul>
+          <li>OGC Standards</li>
+          <li>QGIS</li>
+          <li>PostGIS</li>
+        </ul>
+      </template>
+    </SkillsItem>
+    <SkillsItem>
       <template #type> Tools </template>
       <template #skills>
         <ul>
@@ -70,17 +81,16 @@ import SkillsItem from './items/SkillsItem.vue'
           <li>Visual Studio Code</li>
           <li>Netbeans</li>
           <li>Swagger/OpenAPI</li>
+          <li>Selenium</li>
         </ul>
       </template>
     </SkillsItem>
+
     <SkillsItem>
       <template #type> Other </template>
       <template #skills>
         <ul>
-          <li>OGC Services</li>
           <li>Geotools</li>
-          <li>QGIS</li>
-          <li>PostGIS</li>
           <li>Java Swing</li>
           <li>Gitea</li>
           <li>Bugzilla</li>
@@ -102,3 +112,9 @@ import SkillsItem from './items/SkillsItem.vue'
     </SkillsItem>
   </ul>
 </template>
+
+<style scoped>
+ul li {
+  list-style: circle;
+}
+</style>

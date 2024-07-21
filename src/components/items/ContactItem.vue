@@ -8,6 +8,7 @@ defineProps({
 </script>
 <template>
   <li>
+    <slot name="icon"></slot>
     <label> <slot name="heading"></slot></label>
     <input v-if="value !== undefined" readonly type="text" :value="value" />
     <slot name="link"></slot>
