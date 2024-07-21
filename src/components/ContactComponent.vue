@@ -12,7 +12,7 @@ import ContactItem from './items/ContactItem.vue'
   <section>
     <article>
       <ul>
-        <ContactItem value="Berlin">
+        <ContactItem id="address" value="Berlin">
           <template #icon>
             <img
               aria-hidden="true"
@@ -23,7 +23,7 @@ import ContactItem from './items/ContactItem.vue'
           <template #heading>Address</template>
         </ContactItem>
 
-        <ContactItem value="Please ask per mail">
+        <ContactItem id="phone" value="Please ask per mail">
           <template #icon>
             <img
               aria-hidden="true"
@@ -35,13 +35,13 @@ import ContactItem from './items/ContactItem.vue'
           <template #heading>Phone</template>
         </ContactItem>
 
-        <ContactItem value="dezhijacky.fu [ at ] gmail.com">
+        <ContactItem id="mail" value="dezhijacky.fu [ at ] gmail.com">
           <template #icon>
             <img aria-hidden="true" class="logo" src="../assets/icons/mail.svg" alt="A mail icon" />
           </template>
           <template #heading>E-Mail</template>
         </ContactItem>
-        <ContactItem>
+        <ContactItem id="github">
           <template #icon>
             <img
               aria-hidden="true"

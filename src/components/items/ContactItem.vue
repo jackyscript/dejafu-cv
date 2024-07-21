@@ -1,5 +1,9 @@
 <script setup>
 defineProps({
+  id: {
+    type: String,
+    required: true
+  },
   value: {
     type: String,
     required: false
@@ -9,8 +13,8 @@ defineProps({
 <template>
   <li>
     <slot name="icon"></slot>
-    <label> <slot name="heading"></slot></label>
-    <input v-if="value !== undefined" readonly type="text" :value="value" />
+    <label :for="id"> <slot name="heading"></slot></label>
+    <input :id="id" v-if="value !== undefined" readonly type="text" :value="value" />
     <slot name="link"></slot>
   </li>
 </template>
