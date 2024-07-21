@@ -26,3 +26,10 @@ import HeaderComponent from './components/HeaderComponent.vue'
   padding: 20px;
 }
 </style>
+
+<style>
+.router-link-exact-active {
+  background-color: var(--pico-mark-background-color);
+  color: var(--pico-mark-color);
+}
+</style>
