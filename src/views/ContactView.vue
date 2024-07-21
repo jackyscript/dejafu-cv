@@ -1,9 +1,10 @@
 <script setup>
 import ContactComponent from '../components/ContactComponent.vue'
+import MainComponent from '../components/MainComponent.vue'
 </script>
 
 <template>
-  <main id="main" class="container-fluid">
+  <MainComponent>
     <ContactComponent />
-  </main>
+  </MainComponent>
 </template>

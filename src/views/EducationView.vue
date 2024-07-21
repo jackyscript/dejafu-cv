@@ -1,11 +1,12 @@
 <script setup>
 import EducationComponent from '../components/EducationComponent.vue'
+import MainComponent from '../components/MainComponent.vue'
 </script>
 
 <template>
-  <main id="main" class="container-fluid">
+  <MainComponent>
     <EducationComponent />
-  </main>
+  </MainComponent>
 </template>
 
 <style></style>

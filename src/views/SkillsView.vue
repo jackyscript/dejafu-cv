@@ -1,11 +1,12 @@
 <script setup>
 import SkillsComponent from '../components/SkillsComponent.vue'
+import MainComponent from '../components/MainComponent.vue'
 </script>
 
 <template>
-  <main id="main" class="container-fluid">
+  <MainComponent>
     <SkillsComponent />
-  </main>
+  </MainComponent>
 </template>
 
 <style></style>

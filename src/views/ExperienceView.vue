@@ -1,11 +1,12 @@
 <script setup>
 import ExperienceComponent from '../components/ExperienceComponent.vue'
+import MainComponent from '../components/MainComponent.vue'
 </script>
 
 <template>
-  <main id="main" class="container-fluid">
+  <MainComponent>
     <ExperienceComponent />
-  </main>
+  </MainComponent>
 </template>
 
 <style></style>

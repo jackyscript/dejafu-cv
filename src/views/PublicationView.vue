@@ -1,11 +1,12 @@
 <script setup>
 import PublicationComponent from '../components/PublicationComponent.vue'
+import MainComponent from '../components/MainComponent.vue'
 </script>
 
 <template>
-  <main id="main" class="container-fluid">
+  <MainComponent>
     <PublicationComponent />
-  </main>
+  </MainComponent>
 </template>
 
 <style></style>
