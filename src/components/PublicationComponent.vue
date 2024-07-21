@@ -8,7 +8,7 @@ import PublicationItem from './items/PublicationItem.vue'
       Development of a telemetry system for capturing process data in the field
     </template>
     <template #location>Berlin</template>
-    <template #occupation> Master's Student, Masters's Thesis (German) </template>
+    <template #occupation> Master's student, master's thesis (German) </template>
     <template #date>Feb. 2016 ‑ Sep. 2016</template>
     <ul>
       <li>
