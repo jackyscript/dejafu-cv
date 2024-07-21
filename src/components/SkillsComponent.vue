@@ -3,7 +3,9 @@ import SkillsItem from './items/SkillsItem.vue'
 </script>
 
 <template>
-  <p>These are skills I acquired, used in my professional life or in personal projects.</p>
+  <p tabindex="0">
+    These are skills I acquired, used in my professional life or in personal projects.
+  </p>
   <ul>
     <SkillsItem>
       <template #type> Programming languages </template>

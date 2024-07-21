@@ -3,7 +3,7 @@ import ContactItem from './items/ContactItem.vue'
 </script>
 
 <template>
-  <p>
+  <p tabindex="0">
     Hello, I am Dezhi Jacky Fu, I work as an application developer. I have a passion for human
     focused development, I care for a11y, UX and DX. I am focused, dedicated, hard-working and
     willing to learn in a changing and challenging environment. I am a trained engineer (M. Sc.) in

@@ -11,7 +11,7 @@ import ExperienceItem from './items/ExperienceItem.vue'
     <template #location>Berlin</template>
     <template #position> Software Developer </template>
     <template #date>since Oct. 2016</template>
-    <ul>
+    <ul tabindex="0">
       <li>
         Continue developing the FIS‑Broker, guiding the technical and operational project
         development after becoming project lead, act as main point of contact regarding further
@@ -70,7 +70,7 @@ import ExperienceItem from './items/ExperienceItem.vue'
     <template #location>Berlin</template>
     <template #position> Working Student Application Development </template>
     <template #date>Sep. 2016 ‑ Oct. 2016</template>
-    <ul>
+    <ul tabindex="0">
       <li>Extended the FIS‑Broker system by an archive feature for datasets.</li>
       <li>
         Created a feature to enable user defined configuration of archived and non‑archived
@@ -84,7 +84,7 @@ import ExperienceItem from './items/ExperienceItem.vue'
     <template #location>Munich</template>
     <template #position> Working Student Test Automation </template>
     <template #date>Aug. 2015 ‑ Dec. 2015</template>
-    <ul>
+    <ul tabindex="0">
       <li>
         Designed and developed automatic UI tests for the main product of the company and set up a
         test suite using the selenium framework.
@@ -103,7 +103,7 @@ import ExperienceItem from './items/ExperienceItem.vue'
     <template #location>Munich</template>
     <template #position> Tutor Java Programming </template>
     <template #date>Apr. 2015 ‑ Aug. 2015</template>
-    <ul>
+    <ul tabindex="0">
       <li>
         Taught students programming using the Java language in the following topics: Implement
         linked lists, B‑trees, heaps and the Dijkstra algorithm, develop a chat program using
@@ -120,7 +120,7 @@ import ExperienceItem from './items/ExperienceItem.vue'
     <template #location>Munich</template>
     <template #position> Tutor Global Geodetic Observation System and GNSS </template>
     <template #date>Nov. 2013 ‑ Mar. 2015</template>
-    <ul>
+    <ul tabindex="0">
       <li>
         Created and conducted practical tutorial lessons: Computing and modeling GRACE satellite
         data using the example of ice mass changes of greenland using MATLAB and Python/NumPy.
@@ -133,7 +133,7 @@ import ExperienceItem from './items/ExperienceItem.vue'
     <template #location>Munich</template>
     <template #position> Tutor Image Understanding </template>
     <template #date>Oct. 2014 ‑ Mar 2015</template>
-    <ul>
+    <ul tabindex="0">
       <li>
         Conducted practical tutorial lessons in addition to the lectures, provided introductory
         lessons for students about algorithms for feature detection in orthoimagery using
@@ -160,7 +160,7 @@ import ExperienceItem from './items/ExperienceItem.vue'
     <template #location>Munich</template>
     <template #position> Tutor Geoinformatics </template>
     <template #date>Jun. 2013 ‑ Feb. 2014</template>
-    <ul>
+    <ul tabindex="0">
       <li>
         Created tutorial lessons for students to learn using ArcGIS for the topics of 3D modeling of
         a city model of Munich, visualization and interpolation of particulate matter data published
@@ -174,5 +174,10 @@ import ExperienceItem from './items/ExperienceItem.vue'
 <style scoped>
 ul li {
   list-style: circle;
+}
+
+ul:focus {
+  outline: var(--pico-outline-width) solid var(--pico-primary-focus);
+  outline-offset: calc(var(--pico-spacing, 1rem) * 0.5);
 }
 </style>
