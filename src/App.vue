@@ -10,7 +10,6 @@ import MenuComponent from './components/MenuComponent.vue'
 
     <HeaderComponent msg="Dezhi Jacky Fu" />
     <MenuComponent></MenuComponent>
-    <a href="#main">Skip to main content</a>
     <nav class="nav">
       <RouterLink to="/">Contact</RouterLink>
       <RouterLink to="/skills">Skills</RouterLink>
