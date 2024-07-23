@@ -1,6 +1,7 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import HeaderComponent from './components/HeaderComponent.vue'
+import MenuComponent from './components/MenuComponent.vue'
 </script>
 
 <template>
@@ -8,6 +9,7 @@ import HeaderComponent from './components/HeaderComponent.vue'
     <!--img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" /-->
 
     <HeaderComponent msg="Dezhi Jacky Fu" />
+    <MenuComponent></MenuComponent>
     <a href="#main">Skip to main content</a>
     <nav class="nav">
       <RouterLink to="/">Contact</RouterLink>
