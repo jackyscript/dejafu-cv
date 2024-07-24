@@ -13,7 +13,7 @@ import PublicationItem from './items/PublicationItem.vue'
     <ul>
       <li>
         Designed and developed a low cost data logger using a CAN‑BUS and GNSS interface to capture
-        tractor data and stored the data using an OGC Sensor Observation Service; evaluated the OGC
+        tractor data and store the data using an OGC Sensor Observation Service; evaluated the OGC
         standard Moving Features for this field of application; examined and assessed the current
         state of client applications for presenting mobile sensor data.
       </li>
