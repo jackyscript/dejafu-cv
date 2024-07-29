@@ -22,7 +22,7 @@ import PublicationItem from './items/PublicationItem.vue'
       </li>
       <li>
         <a href="https://github.com/jackyscript/telemetry-client" target="_blank"
-          >Click here to get to the revised CAN-BUS git repo on github</a
+          >Click here to go to the revised CAN-BUS git repo on github</a
         >
       </li>
     </ul>
