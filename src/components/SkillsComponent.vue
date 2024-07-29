@@ -60,12 +60,13 @@ import SkillsItem from './items/SkillsItem.vue'
       </template>
     </SkillsItem>
     <SkillsItem>
-      <template #type> GIS </template>
+      <template #type> Geospatial </template>
       <template #skills>
         <ul>
           <li>OGC Standards</li>
           <li>QGIS</li>
           <li>PostGIS</li>
+          <li>Geotools</li>
         </ul>
       </template>
     </SkillsItem>
@@ -92,8 +93,6 @@ import SkillsItem from './items/SkillsItem.vue'
       <template #type> Other </template>
       <template #skills>
         <ul>
-          <li>Geotools</li>
-          <li>Java Swing</li>
           <li>Gitea</li>
           <li>Bugzilla</li>
           <li>MS Office</li>
