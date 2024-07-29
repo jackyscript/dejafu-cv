@@ -11,9 +11,6 @@ function brighten() {
   <nav>
     <ul>
       <li><strong>Menu</strong></li>
-      <li>
-        <a href="#main">Skip to main content</a>
-      </li>
     </ul>
     <ul>
       <li>

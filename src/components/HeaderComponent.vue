@@ -8,9 +8,8 @@ defineProps({
 </script>
 
 <template>
-  <div>
-    <h1>{{ msg }}</h1>
-  </div>
+  <h1>{{ msg }}</h1>
+  <a href="#main">Skip to main content</a>
 </template>
 
 <style scoped></style>
