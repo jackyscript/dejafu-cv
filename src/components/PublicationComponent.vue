@@ -20,6 +20,11 @@ import PublicationItem from './items/PublicationItem.vue'
       <li>
         <a href="https://mediatum.ub.tum.de/node?id=1352970" target="_blank">Get the thesis here</a>
       </li>
+      <li>
+        <a href="https://github.com/jackyscript/telemetry-client" target="_blank"
+          >Click here to get to the revised CAN-BUS git repo on github</a
+        >
+      </li>
     </ul>
   </PublicationItem>
 </template>
