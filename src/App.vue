@@ -29,6 +29,7 @@ import MenuComponent from './components/MenuComponent.vue'
 <style scoped>
 .nav {
   padding: 20px;
+  flex-wrap: wrap;
 }
 </style>
 
